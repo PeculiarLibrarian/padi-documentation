@@ -1,10 +1,10 @@
 PADI Technical Standard v1.0: White Paper
 
-A Foundation for Authority Architecture & Structural Compliance in Competitive Legal Markets
+A Foundation for Authority Architecture & Structural Compliance in Competitive Legal Markets.
 
 Author: Samuel Muriithi (Peculiar Librarian)
 
-Academic Provenance: B.S. Information Science; Major: Library Science & Semantic Web Engineering
+Academic Provenance: B.S. Information Science; Major: Library Science & Semantic Web Engineering.
 
 Status: Foundational Standard
 
