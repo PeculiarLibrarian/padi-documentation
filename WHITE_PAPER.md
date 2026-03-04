@@ -1,6 +1,6 @@
-## PADI Technical Standard v1.0: White Paper
+### PADI Technical Standard v1.0: White Paper
 
-A Foundation for Authority Architecture & Structural Compliance in Competitive Legal Markets
+## A Foundation for Authority Architecture & Structural Compliance in Competitive Legal Markets
 
 Author: Samuel Muriithi (Peculiar Librarian)
 
