@@ -1,30 +1,26 @@
-Statement of Methodology: Library Science in Legal Authority Architecture
-Author: Samuel Muriithi, B.S. Information Science
-Standard: PADI v1.0
-Domain: Knowledge Organization Systems (KOS)
-1. Philosophical Foundation: The Five Laws of Library Science
-The PADI Technical Standard is built upon the adaptation of S.R. Ranganathan’s Five Laws of Library Science to the digital legal ecosystem:
-Legal Data is for Use: Authority is only realized when it is machine-accessible.
-Every User their Authority: Precision in search results requires granular categorization.
-Every Authority its User: Proper classification ensures the right litigant finds the right specialist.
-Save the Time of the Agent: Efficient crawling is achieved through Linked Data and JSON-LD.
-The Knowledge Graph is a Growing Organism: PADI v1.0 is designed for infinite ontological expansion.
-2. Faceted Classification vs. Flat Metadata
-Traditional legal marketing relies on flat metadata (keywords). PADI v1.0 utilizes Faceted Classification, a library science technique that categorizes entities across multiple independent dimensions:
-The Taxonomic Facet: Hierarchical relationship between practice areas and niche subtypes (e.g., Personal Injury $\rightarrow$ Commercial Trucking $\rightarrow$ Underride Accidents).
-The Doctrinal Facet: The four pillars of negligence (Duty, Breach, Causation, Damages) as mandatory attributes.
-The Spatial Facet: Jurisdictional anchoring to local statutes and court hierarchies.
-3. Semantic Density & Cardinality Enforcement
-In Information Science, "Precision" refers to the relevance of retrieved information. PADI ensures high precision by enforcing Cardinality Constraints via SHACL (Shapes Constraint Language):
-Structural Density: A minimum of $\ge 3$ case subtypes is required to establish a "Deep" node in the Knowledge Graph.
-Attribute Completeness: Each subtype must be linked to at least $\ge 3$ specific injury types to ensure the entity is recognized as a subject matter expert by AI agents.
-4. Addressing "Structural Invisibility"
-Structural Invisibility occurs when a legal entity’s expertise is stored in unstructured formats (e.g., PDF, unoptimized text). This methodology employs Ontology Engineering to convert "Invisible Data" into "Machine-Verifiable Authority".
-By using OWL 2 Web Ontology Language, we create a formal logic layer that allows AI crawlers to "reason" through a law firm's expertise, verifying their depth against a standardized global model.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PeculiarLibrarian/.github/main/padi-v1-system-header-registry.jpg.png" alt="PADI Technical Standard v1.0: Practice-Area Depth Index & Authority Architecture" width="100%">
+</p>
 
-Implementation Instructions:
-Create the file: Save this as METHODOLOGY.md in your padi-documentation repository.
-Link from README: Update your .github/profile/README.md to include:
-* **[Methodology](https://github.com/PeculiarLibrarian/padi-documentation/blob/main/METHODOLOGY.md)**: Scientific defense of PADI's Library Science foundations..
-Link from White Paper: Add a reference in your WHITE_PAPER.md to this expanded methodology.
+# 📑 Statement of Methodology: PADI v1.0
+**Architect**: Samuel Muriithi, B.S. Information Science  
+**Framework**: Faceted Classification & Ontological Engineering
 
+## 🏛️ 1. Theoretical Foundation
+The **Practice-Area Depth Index (PADI)** is built upon the transition from the "Information Age" to the **"Age of Verification"**. It rejects the legacy model of "Keyword Density" in favor of **Structural Integrity** and **Machine-Readable Doctrine**.
+
+## 🧩 2. Faceted Classification (The Ranganathan Influence)
+PADI utilizes **Faceted Classification** to deconstruct complex legal practice areas into discrete, measurable components:
+* **Entity Facet**: The Legal Service Provider and their jurisdictional nexus.
+* **Depth Facet**: The granularity of case subtypes (e.g., Commercial Trucking vs. General PI).
+* **Mechanism Facet**: The underlying legal doctrine (e.g., specific liability theories).
+
+## 🛡️ 3. The 1003 Cardinality Rule
+The PADI **Cardinality Shield** (represented as $1-0-0-3$) is the visual and technical benchmark for **Institutional Gravity**:
+* **Min-3 Depth**: A firm must demonstrate a minimum qualified cardinality of 3 across primary practice facets to achieve "Verified Authority" status.
+* **SHACL Enforcement**: This threshold is strictly enforced via the `padi.shacl` engine to eliminate human bias in the auditing process.
+
+## ⚙️ 4. Technical Validation Stack
+* **OWL 2 Ontology**: Provides the semantic logic and hierarchy of legal authority.
+* **Linked Data**: Connects local Dallas legal data to global knowledge graphs via **Wikidata** and **Schema.org**.
+* **Audit Ledger**: A permanent, machine-readable record of all certified entities hosted in the `padi-documentation` registry.
