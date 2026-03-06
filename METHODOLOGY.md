@@ -3,7 +3,7 @@
 </p>
 
 # 📑 Statement of Methodology: PADI v1.0
-**Architect**: Samuel Muriithi, B.S. Information Science  
+**Architect**: Samuel Muriithi Gitandu, B.S. Information Science  
 **Framework**: Faceted Classification & Ontological Engineering
 
 ## 🏛️ 1. Theoretical Foundation
